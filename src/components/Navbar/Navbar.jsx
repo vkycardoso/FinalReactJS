@@ -13,10 +13,9 @@ export const Navbar = () => {
                 <img className='imgLogo' src={logo} alt='LOGO'/>
 
                 <nav className="navbar">
-                    <Link to='/' className="navbar__link">Inicio</Link>
+                    <Link to='/' className="navbar__link">Productos</Link>
                     <Link to='/productos/entradas' className="navbar__link">Entradas</Link>
-                    <Link to='/productos/menu-extra' className="navbar__link">Menus Extra</Link>
-                    <Link to='/productos/menu-completo' className="navbar__link">Menu Completo</Link>
+                    <Link to='/productos/menu-extra' className="navbar__link">Menu Extra</Link>
                     <Link to='/nosotros' className="navbar__link">Nosotros</Link>
                     
                     <Buscador />
@@ -28,3 +27,4 @@ export const Navbar = () => {
         </header>
     )
 }
+
