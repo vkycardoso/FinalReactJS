@@ -1,18 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDqhZcqReEKULjmUYxCEkubJzhDv1FoPj4",
-  authDomain: "borgeswingsba-edbc3.firebaseapp.com",
-  projectId: "borgeswingsba-edbc3",
-  storageBucket: "borgeswingsba-edbc3.appspot.com",
-  messagingSenderId: "182896632498",
-  appId: "1:182896632498:web:407fd79fae771a9e701fab"
+  apiKey: "AIzaSyDqC2qpprqrNLkF5YuFs0XXdqWS8eHV2dY",
+  authDomain: "borgeswings-bf309.firebaseapp.com",
+  projectId: "borgeswings-bf309",
+  storageBucket: "borgeswings-bf309.appspot.com",
+  messagingSenderId: "817970932208",
+  appId: "1:817970932208:web:96fb64ca05b091c1669535"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app)
